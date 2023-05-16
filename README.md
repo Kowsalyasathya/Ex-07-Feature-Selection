@@ -145,6 +145,7 @@ model.fit(X_rfe,y)
 temp = pd.Series(rfe.support_,index = cols)
 selected_features_rfe = temp[temp==True].index
 print(selected_features_rfe)
+
 reg = LassoCV()
 reg.fit(X, y)
 print("Best alpha using built-in LassoCV: %f" % reg.alpha_)
@@ -158,7 +159,7 @@ imp_coef.plot(kind = "barh")
 plt.title("Feature importance using Lasso Model")
 plt.show()
 ```
-# OUPUT
+# OUPUT :
 DATA PREPROCESSING BEFORE FEATURE SELECTION:
 ![7 1](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/cbfcc142-038e-4bef-a9ae-70a5b9f51603)
 ![7 2](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/e8fff0b6-aeb6-45ad-9d12-627fa6021076)
@@ -168,6 +169,8 @@ DATA PREPROCESSING BEFORE FEATURE SELECTION:
 ![7 6](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/49a5cd00-8fd0-4824-b887-49aae33b095c)
 ![7 7](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/2e73067f-a0f8-4816-80a7-849fbd969a3a)
 ![7 8](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/d606b755-629e-47a9-aa3d-76754b590aea)
+FEATURE SELECTION:
+FILTER METHOD:
 ![7 9](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/4b66ca9a-865e-41d8-9201-9d75fc3569a5)
 WRAPPER METHOD:
 BACKWARD ELIMINATION:
