@@ -169,6 +169,8 @@ DATA PREPROCESSING BEFORE FEATURE SELECTION:
 ![7 7](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/2e73067f-a0f8-4816-80a7-849fbd969a3a)
 ![7 8](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/d606b755-629e-47a9-aa3d-76754b590aea)
 ![7 9](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/4b66ca9a-865e-41d8-9201-9d75fc3569a5)
+WRAPPER METHOD:
+BACKWARD ELIMINATION:
 ![7 10](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/367bde4a-f647-444a-815b-85911d521f65)
 ![7 12](https://github.com/Kowsalyasathya/Ex-07-Feature-Selection/assets/118671457/5329281e-462c-4f1c-86ce-b125cd696bd4)
 FINAL SET OF FEATURE:
